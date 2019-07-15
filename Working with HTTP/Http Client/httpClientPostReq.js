@@ -4,7 +4,7 @@ const postData = JSON.stringify({ foo: 'bar' })
 const options = {
   hostname: 'mockbin.com',
   port: 80,
-  path: '/request?foo=bar&foo=baz',
+  path: '/request',
   method: 'POST',
   headers: {
     'Content-Type': 'application/x-www-form-urlencoded',
